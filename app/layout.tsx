@@ -1,14 +1,14 @@
-"use client";
+// app/layout.tsx (🚫 no 'use client' here!)
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "./provider";
+import ClientProviders from "./client-providers"; // new component
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sahil's Portfolio",
-  description: "Minimal Modern Porfolio website",
+  description: "Minimal Modern Portfolio website",
 };
 
 export default function RootLayout({
@@ -19,14 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
+        <ClientProviders>{children}</ClientProviders>
       </body>
     </html>
   );
