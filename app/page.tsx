@@ -1,5 +1,7 @@
+'use client'
+
 import Approach from "@/components/Approach";
-import Client from "@/components/Client";
+// import Client from "@/components/Client";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
