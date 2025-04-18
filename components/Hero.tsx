@@ -71,7 +71,7 @@ const Hero = () => {
           Hi! I&apos;m Sahil, a frontend developer who loves breathing life into static screens.
           </p>
 
-          <a href="/" target="_blank" className="cursor-pointer">
+          <a href="mailto:sahilr8587@gmail.com" target="_blank" className="cursor-pointer">
             <MagicButton
               title="Let's Connect"
               icon={<FaLocationArrow />}
