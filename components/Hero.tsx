@@ -7,20 +7,26 @@ import { TypewriterEffect } from "./ui/TypewriterEffect";
 const Hero = () => {
   const words = [
     {
-      text: "I",
+      text: "Building",
     },
     {
-      text: "Build",
+      text: "interactive,",
     },
     {
-      text: "High-performance",
+      text: "scalable,",
+    },
+    {
+      text: "and",
+    },
+    {
+      text: "Aesthetic",
     },
     {
       text: "Web",
       className: "text-purple dark:text-purple",
     },
     {
-      text: "Applications",
+      text: "Experience",
       className: "text-purple dark:text-purple",
     },
   ];
@@ -52,22 +58,22 @@ const Hero = () => {
           <img
             src="/dp.jpg"
             alt="profile-pic"
-            className="rounded-full w-80 h-80 border-2 border-white-100 mb-5"
+            className="rounded-full w-80 h-80 border-2 grayscale border-white-100 mb-5"
           />
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Akash Jana
+            Sahil Rawat
           </h2>
           <TypewriterEffect
             className="text-center md:text-5xl lg:text-6xl my-5"
             words={words}
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Akash, a proficient Web Developer and AI Enthusiast.
+          Hi! I&apos;m Sahil, a frontend developer who loves breathing life into static screens.
           </p>
 
-          <a href="https://contra.com/akash_jana" target="_blank" className="cursor-pointer">
+          <a href="/" target="_blank" className="cursor-pointer">
             <MagicButton
-              title="Hire me on Contra"
+              title="Let's Connect"
               icon={<FaLocationArrow />}
               position="right"
             />

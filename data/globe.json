@@ -10,8 +10,8 @@
         {
             "type": "Feature",
             "properties": {
-                "admin": "Afghanistan",
-                "name": "Afghanistan",
+                "admin": "India",
+                "name": "India",
                 "continent": "Asia"
             },
             "geometry": {

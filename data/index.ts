@@ -3,7 +3,7 @@ export const navItems = [
     // { name: "Resume", link: "https://drive.google.com/file/d/1udileHqcrbD09gjuFpUZlHgpOajw3UU_/view?usp=sharing" },
     { name: "Projects", link: "#projects" },
     //{ name: "Testimonials", link: "#testimonials" },
-    { name: "Blogs", link: "https://dev.to/akashjana"},
+    // { name: "Blogs", link: "https://dev.to/akashjana"},
     { name: "Contact", link: "#contact" },
   ];
   
@@ -20,18 +20,18 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Curious, Creative, and Always Learning.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2 min-h-[40vh] select-none",
       imgClassName: "",
-      titleClassName: "justify-start",
+      titleClassName: "justify-start md:text-lg",
       img: "",
       spareImg: "",
     },
     {
       id: 3,
-      title: "Hire me",
-      description: "Are you hiring? Check out ",
+      title: "Let’s build something great together. Available for new Opportunities & Collaboration.",
+      description: "Open to Work ",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2 flex",
       imgClassName: "",
       titleClassName: "justify-end",
@@ -40,7 +40,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Design is not just what it looks like—it's how it works",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -51,8 +51,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Clean Code and Modern Design",
-      description: "Passionate about transforming ideas into reality.",
+      title: " I enjoy building fast, interactive UIs with clean code and subtle animations.",
+      description: " I thrive in creative teams and love learning new tech.",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -74,37 +74,37 @@ export const navItems = [
   export const projects = [
         {
       id: 1,
-      title: "CopilotMate",
-      des: "CopilotMate is an open-source personal assistant designed to streamline productivity with an intuitive interface and a suite of essential tools.",
-      img: "/copilotmate.png",
-      iconLists: ["/next.svg",  "/tail.svg", "/ts.svg", "/fm.svg"],
-      link: "https://youtu.be/qPVRPUH8ewU?si=PmCxfpnI30lgJRd0",
+      title: "MarketingEXL",
+      des: "A corporate site for a marketing firm, built with React, Spline 3D, and Tailwind CSS.",
+      img: "/marketingexl.png",
+      iconLists: ["/re.svg",  "/tail.svg", "/ts.svg", "/fm.svg", "/gsap.svg"],
+      link: "marketingexl.com/",
     },
     {
       id: 2,
-      title: "Statify - Landing page",
-      des: "A modern and minimal lading page with excellent UI/UX.",
-      img: "/statify.png",
-      iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"],
-      link: "https://statify-delta-mauve.vercel.app/",
+      title: "Attri Foundation Website",
+      des: "Non-profit website built for an NGO to raise awareness, showcase causes, and collect online donations.",
+      img: "/attri-foundation.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/mui.svg", "/chartjs.svg"],
+      link: "ngo-attri.onrender.com/",
     },
-    {
-      id: 3,
-      title: "Cryptack - Cryptocurrency tracker",
-      des: "Compare different cryptocurrencies, view their graphs—prices, total volumes, market cap, etc.",
-      img: "/p2.png",
-      iconLists: ["/re.svg", "/css.svg", "/js.svg", "/chartjs.svg", "/fm.svg", "/mui.svg"],
-      link: "cryptack.netlify.app/",
-    },
+    // {
+    //   id: 3,
+    //   title: "Nimi Developers",
+    //   des: "Corporate site for a real estate developer company with team info, contact form, and project gallery.",
+    //   img: "/p2.png",
+    //   iconLists: ["/re.svg", "/fm.svg", "/js.svg", "/tail.svg"], 
+    //   link: "nimidevelopers.com/",
+    // },
   
-    {
-      id: 4,
-      title: "Mystery Message",
-      des: "Mystery Message allows users to send and receive anonymous messages, ensuring privacy and fostering honest communication without revealing identities.",
-      img: "/p1.png",
-      iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg","/mongo.svg"],
-      link: "github.com/AkashJana18/nextjs-project",
-    },
+    // {
+    //   id: 4,
+    //   title: "Mystery Message",
+    //   des: "Mystery Message allows users to send and receive anonymous messages, ensuring privacy and fostering honest communication without revealing identities.",
+    //   img: "/p1.png",
+    //   iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg","/mongo.svg"],
+    //   link: "github.com/AkashJana18/nextjs-project",
+    // },
   ];
   
   export const testimonials = [
@@ -176,31 +176,33 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Pretember Challenge",
-      desc: "Developed CopilotMate, personal AI assistant which integrates tools like a to-do list, ai-enabled spreadsheet, expense tracker and other features.",
+      title: "Internship Experience",
+      desc: 
+      "Delivered 10+ responsive websites using React, Tailwind, and Vite. Built 30+ reusable components, implemented routing, optimized performance, and deployed projects on Hostinger. Collaborated with UI/UX and backend teams for seamless integration.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
-      id: 2,
-      title: "Open Source",
-      desc: "Developed a JSON Field Renaming Component in Golang for Instill AI, implementing logic for renaming fields with conflict resolution. Additionally, created comprehensive unit tests to ensure its functionality and robustness",
-      className: "md:col-span-2",
-      thumbnail: "/exp2.svg",
-    },
-    {
       id: 3,
       title: "Freelance Project",
-      desc: "Developed a web application for a client, handling both design and implementation using React.",
+      desc: 
+        "Built real-world websites for NGOs and startups using React and Tailwind. Handled everything from UI/UX to deployment.",
       className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
-      id: 4,
-      title: "Team Led",
-      desc: "Led a team of students in creating a project for a hackathon, focusing on frontend development and project management.",
+      id: 2,
+      title: "Team Lead",
+      desc: "Led a cross-functional team of developers and designers during internship. Conducted client meetings for requirement gathering, reviewed UI/UX designs, assigned tasks, and ensured timely delivery with high code quality.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
+    },
+    {
+      id: 4,
+      title: "Other",
+      desc:"Created creative side projects like admin dashboards, personal portfolio, and animations using GSAP, Framer Motion, and Vite.",
+        className: "md:col-span-2",
+      thumbnail: "/exp2.svg",
     },
   ];
   
@@ -209,16 +211,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      href: "https://github.com/AkashJana18",
+      href: "https://github.com/SahilRawat8587",
     },
-    {
-      id: 2,
-      img: "/twit.svg",
-      href: "https://x.com/Akashj_01",
-    },
+    // {
+    //   id: 2,
+    //   img: "/twit.svg",
+    //   href: "https://x.com/Akashj_01",
+    // },
     {
       id: 3,
       img: "/link.svg",
-      href: "https://www.linkedin.com/in/akashjana",
+      href: "https://www.linkedin.com/in/sahil-rawat-128a18239/",
     },
   ];
