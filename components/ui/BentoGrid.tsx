@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 
 import animationData from "@/data/confetti.json";
 import { BackgroundGradientAnimation } from "./Gradientbg";
-import GridGlobe from "./GridGlobe";
+// import GridGlobe from "./GridGlobe";
 import LitupButton from "./LitupButton";
 import MagicButton from "./MagicButton";
 import { SparklesCore } from "./Sparkles";
@@ -137,7 +137,8 @@ export const BentoGridItem = ({
               {title}
             </div>
 
-            {id === 2 && <GridGlobe />}
+            {id === 2 }
+             {/* && <GridGlobe />} */}
 
             {id === 3 && (
               <>
